@@ -165,7 +165,7 @@ namespace kontrol_revis
 
         private void GetirVeriTabaniDosyalar()
         {
-            string connectionString = "Server=localhost;Database=ucangoz;User ID=root;Password=;";
+            string connectionString = "";
 
             // Veritabanı bağlantısını oluştur
             using (MySqlConnection connection = new MySqlConnection(connectionString))
