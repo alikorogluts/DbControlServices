@@ -8,7 +8,7 @@ namespace kontrol_revis
     {
         public class VeritabaniOku
         {
-            private static string connectionString = "Data Source=DESKTOP-83AGMDV\\MSSQLSERVER61;Initial Catalog=cafedata;Integrated Security=True";
+            private static string connectionString = "";
 
             public static List<string> SutunuOku(string tabloAdi, string sutunAdi)
             {
